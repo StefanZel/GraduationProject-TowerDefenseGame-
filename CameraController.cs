@@ -25,7 +25,7 @@ public class CameraController : MonoBehaviour
             return;
         
         }
-        // Since this build is ment for a Web version of the game. I had to disable the ability to move camera using borders since it's buggy to use it on a browser
+        // Since this build is meant for a Web version of the game. I had to disable the ability to move camera using borders since it's buggy to use it on a browser
 
         if (Input.GetKey("w") /*|| Input.mousePosition.y >= Screen.height - panBorderThickness*/)
         {
